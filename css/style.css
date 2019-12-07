@@ -1,3 +1,6 @@
+
+/* NavBar Section*/
+
 #mainNav .navbar-toggler
 {
     font-size:0.8rem;
@@ -32,6 +35,9 @@
  #mainNav .navbar-nav .nav-item:active,#mainNav .navbar-nav .nav-item:focus
  {outline:0;
   background-color:transparent}
+
+
+/*Media Query Section*/
 
  @media (min-width:992px)
  {#mainNav
@@ -90,6 +96,8 @@ video {
   padding-top: 1rem;
 }
 
+/* About Section */
+
 .about-section {
     padding-top: 5rem;
     background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
@@ -99,7 +107,10 @@ video {
     font-size: 1rem;
     text-align: center;
 }
-	.signup-section
+
+/* Signup Section */
+
+.signup-section
   { padding:4rem 0;
     background-position:center;
     background-repeat:no-repeat;
@@ -116,6 +127,10 @@ video {
     letter-spacing:.15rem;
     border:0
   }
+
+
+/* Project Section */
+
   .projects-section {
     padding: 5rem 0;
   }
@@ -142,38 +157,6 @@ video {
 
 footer{padding:2rem 0}
 
-@keyframes flipInX {
-  from {
-    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    opacity: 0;
-  }
-
-  40% {
-    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-
-  60% {
-    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-    opacity: 1;
-  }
-
-  80% {
-    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
-    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
-  }
-
-  to {
-    -webkit-transform: perspective(400px);
-    transform: perspective(400px);
-  }
-}
 
 .color1{
   color:#2753F0;
@@ -189,6 +172,9 @@ footer{padding:2rem 0}
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
+
+/* Type.Js Blinking Section*/
+
 @keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 0; }
